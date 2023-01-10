@@ -1,4 +1,5 @@
-from NPCs import *
+# from Modules.NPCs import *
+from Modules.Locations import*
 
 
     
@@ -6,6 +7,12 @@ from NPCs import *
 
 # print(npc._name,npc.getName(), npc.getDescription())
 
-farmer = Farmer()
+# farmer = Farmer()
 
-print(farmer.searchForWomen(), farmer.getName())
+
+# print(farmer.searchForWomen(), farmer.getName())
+
+# bandit=Bandit(1)
+# print(bandit)
+forest = Forest(10)
+print(forest._NPCs)
